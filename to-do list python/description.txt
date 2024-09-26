@@ -1,0 +1,41 @@
+Source: ChatGPT4
+
+Sure! Here's a description of the same project without the code:
+
+### Project: **To-Do List App (CLI-Based)**
+
+#### Objective:
+Create a command-line based To-Do List app where you can manage tasks by adding, viewing, completing, and deleting them.
+
+#### Features to Implement:
+1. **Add a Task**: Allow users to add new tasks to their to-do list. Each task should be stored with a "pending" status.
+   
+2. **View Tasks**: Display all tasks, showing whether each task is pending or completed. List the tasks with a number for easy reference.
+
+3. **Mark Task as Completed**: Provide an option for users to mark a specific task as completed. Completed tasks should have their status updated.
+
+4. **Delete a Task**: Enable users to delete a task from the list by selecting the task number.
+
+5. **Exit**: The program should continue running until the user selects an option to exit.
+
+#### Menu:
+You should provide a menu with options that include:
+- View tasks
+- Add task
+- Mark task as completed
+- Delete task
+- Exit the app
+
+#### Steps to Build:
+1. **Task Representation**: Decide how you'll store tasks (e.g., a list of dictionaries or tuples).
+2. **Functions**: Break the features into individual functions (e.g., a function for adding a task, one for viewing tasks, etc.).
+3. **User Interaction**: Continuously display a menu for user input, and call the appropriate function based on the user's choice.
+4. **Input Validation**: Ensure the user inputs valid choices (e.g., task numbers within range).
+5. **Looping**: Keep the program running until the user decides to exit.
+
+#### Potential Enhancements:
+- Allow users to prioritize tasks or set deadlines.
+- Save the tasks to a file and load them when the program starts, so data is not lost between sessions.
+- Implement a search or filter option to view specific tasks.
+
+This should give you enough structure to start writing the code on your own, while leaving room for creative problem-solving!
