@@ -1,4 +1,6 @@
-﻿// //Exercise 1
+﻿//working with Random and method calling
+
+// //Exercise 1
 // Random dice = new Random();
 // int roll = dice.Next(1,7);
 // Console.WriteLine(roll);
