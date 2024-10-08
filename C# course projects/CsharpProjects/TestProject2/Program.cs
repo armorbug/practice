@@ -16,7 +16,6 @@
 // Console.WriteLine($"Third roll: {roll3}");
 
 //Exercise 3
-using System;
 int firstValue = 500;
 int secondValue = 600;
 int largerValue;
